@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio nurmala sari</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#fff8f2;
+            color:#333;
+        }
+
+        header{
+            background:linear-gradient(135deg,#ff7b00,#ffb347);
+            color:white;
+            text-align:center;
+            padding:50px 20px;
+        }
+
+        .foto{
+            width:170px;
+            height:170px;
+            border-radius:50%;
+            border:5px solid white;
+            object-fit:cover;
+            margin-bottom:15px;
+        }
+
+        nav{
+            background:#ff8c00;
+            text-align:center;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        section{
+            max-width:900px;
+            margin:auto;
+            padding:40px 20px;
+        }
+
+        h2{
+            color:#ff7b00;
+            margin-bottom:15px;
+        }
+
+        .card{
+            background:white;
+            padding:20px;
+            border-radius:15px;
+            box-shadow:0 3px 10px rgba(0,0,0,0.1);
+            margin-bottom:20px;
+        }
+
+        .project{
+            background:#fff3e6;
+            padding:15px;
+            border-left:5px solid #ff7b00;
+            margin-top:10px;
+            border-radius:10px;
+        }
+
+        footer{
+            background:#ff7b00;
+            color:white;
+            text-align:center;
+            padding:20px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="foto.jpg" alt="Foto Saya" class="foto">
+        <h1>nurmala</h1>
+        <p>Pelajar RPL | Web Developer Pemula</p>
+    </header>
+
+    <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#skill">Skill</a>
+        <a href="#proyek">Proyek</a>
+        <a href="#kontak">Kontak</a>
+    </nav>
+
+    <section id="tentang">
+        <div class="card">
+            <h2>Tentang Saya</h2>
+            <p>
+                Halo! Saya adalah siswa RPL yang tertarik pada dunia
+                pemrograman dan desain website.
+            </p>
+        </div>
+    </section>
+
+    <section id="skill">
+        <div class="card">
+            <h2>Skill</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript Dasar</li>
+                <li>Desain Web</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="proyek">
+        <div class="card">
+            <h2>Proyek</h2>
+
+            <div class="project">
+                <h3>Website Portofolio</h3>
+                <p>Membuat website portofolio pribadi menggunakan HTML dan CSS.</p>
+            </div>
+
+            <div class="project">
+                <h3>Website Sekolah</h3>
+                <p>Proyek latihan membuat website informasi sekolah.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="kontak">
+        <div class="card">
+            <h2>Kontak</h2>
+            <p>Instagram: @qouetylaa_</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Portofolio nurmala</p>
+    </footer>
+
+</body>
+</html>
